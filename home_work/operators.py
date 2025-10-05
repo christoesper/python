@@ -4,32 +4,29 @@
 # print (num1, "added to", num2, "equals", sum, "!")
 
 
+first = 20
+second = 10
+add = first+second
+sub = first - second
+mult = first*second
+div = first/second
+int_div = first//second
+mod = first % second
+exp = first**second
 
-# addition operators
-print(4 + 7)
-print(11 + 7)
 
-# subtraction operators
-print(12 - 5)    
-print(7 - 5)
+print(f"({first} + {second} = {add})")
 
-# multiplication operators
-print(6 * 6)     
-print(8 * 8)
+print(f"({first} - {second} = {sub})")
 
-# division operators
-print(30 / 5)
-print(40 / 20)
+print(f"({first} * {second} = {mult})")
 
-# modulus
-print(10 % 4)    
-print(4 % 3)
+print(f"({first} / {second} = {div})")
 
-# quotient
-print(18 // 5)   
-print(3 // 2)
+print(f"({first} // {second} = {int_div})")
 
-# powers
-print(3 ** 2)
-print(9 ** 2)
+print(f"({first} % {second} = {mod})")
+
+print(f"({first} ** {second} = {exp})")
+
 
